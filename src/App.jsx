@@ -94,6 +94,14 @@ function ClearIput() {
                 <strong>Estado:</strong>
                 {dados.uf}
               </p>
+              <p>
+                <strong>Regiao:</strong>
+                {dados.regiao}
+              </p>
+              <p>
+                <strong>CEP:</strong>
+                {dados.cep}
+              </p>
             </>
           )}
 
