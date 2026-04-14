@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: yellow;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+}
+
+.ContainerALL {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+
+.container {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+  border-top: 5px solid #dde639;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.resultado {
+  border: solid 2px rgb(255, 230, 0);
+  padding-left: 25px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+  -webkit-box-shadow: 5px 5px 50px -6px #000000; 
+  box-shadow: 5px 5px 50px -6px #999898c3;
+
+}
+
+.resultado p {
+  margin: 2px;
+}
+
+.Bnt-Busca{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 50%;
+  height: 40px;
+  font-size: 16px;
+  background-color: #e6d839;
+  border: none;
+  border-radius: 10px;
+  transition: 1ms ease-in;
+}
+
+.Bnt-Busca:hover {
+  transform:scale(1.01);
+}
+
+input {
+  margin-top: 20px;
+  width: 50%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input::placeholder {
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.AreaInput {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 90px;
+}
+
+.Bnt-Clear {
+  height: 30px;
+  width: 30px;
+  background-color: aliceblue;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.Error {
+  color: red;
+}
+
