@@ -102,6 +102,10 @@ function ClearIput() {
                 <strong>CEP:</strong>
                 {dados.cep}
               </p>
+              <p>
+                <strong>DDD:</strong>
+                {dados.ddd}
+              </p>
             </>
           )}
 
