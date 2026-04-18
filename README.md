@@ -1,16 +1,39 @@
-# React + Vite
+# BuscaDeCep — Busca de CEP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Status](https://img.shields.io/badge/status-concluído-brightgreen)
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![ViaCEP API](https://img.shields.io/badge/ViaCEP-API-blue)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Sobre o projeto
 
-## React Compiler
+Aplicação React que busca informações de endereço através de CEP (código de endereçamento postal brasileiro) consumindo a **ViaCEP API**.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+O usuário digita um CEP e a aplicação faz uma requisição HTTP para obter dados como rua, bairro, cidade, estado e região — exibindo os resultados de forma clara com tratamento de erros e loading.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Funcionalidades
+
+- 🔍 Busca de CEP com validação
+- ⏳ Estado de carregamento
+- ❌ Tratamento de erros
+- 🧹 Botão para limpar entrada
+- 📍 Exibição de dados: rua, bairro, cidade, estado, região, DDD
+- 📱 Design responsivo
+
+---
+
+## Tecnologias
+
+- React (^19.2.4)
+- Vite
+- JavaScript
+- ViaCEP API (https://viacep.com.br)
+
+---
+
+## Estrutura do projeto
