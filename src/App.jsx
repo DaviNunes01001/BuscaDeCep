@@ -59,7 +59,7 @@ function ClearIput() {
           value={cep}
           onChange={(e) => setCep(e.target.value)}
         />
-        <button className="Bnt-Clear"  onClick={ClearIput}><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/debian/debian-original.svg" alt="" height='20px'/></button>
+        <button className="Bnt-Clear"  onClick={ClearIput}>Limpar</button>
         </div>
 
         <button className="Bnt-Busca" onClick={buscarCEP} disabled={loading}>
