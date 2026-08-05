@@ -35,5 +35,3 @@ O usuário digita um CEP e a aplicação faz uma requisição HTTP para obter da
 - ViaCEP API (https://viacep.com.br)
 
 ---
-
-## Estrutura do projeto
